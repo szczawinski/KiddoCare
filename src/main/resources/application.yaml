@@ -1,3 +1,6 @@
 spring:
   application:
     name: KiddoCare
+  profiles.active: ${SPRING_PROFILES_ACTIVE:prod}
+
+server.port: ${PORT:8080}
